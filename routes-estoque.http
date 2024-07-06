@@ -1,4 +1,4 @@
-POST http://localhost:3000/estoque
+POST https://estoque-api-com-fastify-i0r0.onrender.com/estoque
 Content-Type: application/json
 
 {
