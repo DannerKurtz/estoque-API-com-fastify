@@ -1,0 +1,27 @@
+POST http://localhost:3000/estoque
+Content-Type: application/json
+
+{
+    "nome": "galpão 02"
+}
+
+###
+
+GET http://localhost:3000/estoque
+
+###
+
+PUT http://localhost:3000/estoque/b7a6e812-0aef-411f-b090-830f7c2fddc5
+Content-Type: application/json
+
+{
+    "nome": "galapão 02"
+}
+
+###
+
+DELETE http://localhost:3000/estoque/23de2774-ba8d-4624-86b2-f86ca0e2da7d
+
+
+
+

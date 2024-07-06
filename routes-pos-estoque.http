@@ -1,0 +1,24 @@
+POST http://localhost:3000/pos-estoque
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "id_estoque": "4d5fd267-b094-48b6-9d90-26a6237ae263",
+    "id_produto": "61d1b9a2-7e7b-4dc4-ac22-979c10e94784"
+}
+
+###
+GET http://localhost:3000/pos-estoque?search=teste
+
+###
+PUT http://localhost:3000/pos-estoque/82ef965b-0449-41fa-b671-ed0a0b831f68
+Content-Type: application/json
+
+{
+    "nome": "A-1",
+    "id_estoque": "4d5fd267-b094-48b6-9d90-26a6237ae263",
+    "id_produto": "8df44991-42f6-4dab-82dd-6a5b63e21fa6"
+}
+
+###
+DELETE http://localhost:3000/pos-estoque/941a7473-42e2-48aa-8ca1-650e69991381
